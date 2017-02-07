@@ -1,0 +1,101 @@
+#grad1 {
+    height: 200px;
+    background: lightblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, lightblue , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, lightblue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, lightblue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, lightblue , white); /* Standard syntax (must be last) */
+}
+
+
+div.container {
+    width: 100%;
+}
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+*/
+ol li{
+
+    display: list-item;
+    color: black;
+    margin-bottom: : 10px;
+    text-decoration: dotted-line;
+}
+
+
+
+#ulNav{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+#liNav{
+   
+    float: left;
+    display: inline;
+}
+
+#liaNav{
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+
+
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+
+footer{
+
+   /* border: solid;
+    border-top-width: 5px;
+    border-top-color: black; */
+    padding: 2em;
+    clear: left;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    height: 100px;
+    background: lightblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, white , lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, white, lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, white, lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, white , lightblue); /* Standard syntax (must be last) */
+
+}
+
+
